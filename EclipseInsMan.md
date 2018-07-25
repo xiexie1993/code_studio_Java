@@ -35,4 +35,26 @@ Eclipse的Java Project的目录结构
 
 ~~~
 
++ 例子2：导入包（导入Scanner工具类：获取用户输入信息）
+    + Scanner类位于java.util包中，使用时需要导入此包
+    + 步骤：
+        + Step1: 导入java.util.Scanner
+            + 在包声明的下面（即 package xxx.xxx 的下面） import java.util.Scanner
+        + Step2: 创建Scanner对象
+            + Scanner input = new Scanner(System.in);// 创建Scanner对象
+        + Step3: 接收并保存用户输入的值
+            + int score= input.nextInt();//获取整数
+
 ## 参考资料
+
++ [Java:包进行类管理](https://blog.csdn.net/zzwtyds/article/details/78204137)
+
++ [各种语言常见的包管理工具](https://www.tianmaying.com/tutorial/package-manager)
+
++ [Java 包(package)](http://www.runoob.com/java/java-package.html)
+
++ [java中最常用的包和类（一）](https://blog.csdn.net/piratesjjcf/article/details/52506458)
+
++ [GitHub 上那些值得一试的 Java 开源库](https://www.oschina.net/news/75257/github-java-opensource-library)
+
++ [JDK中常用包及其类和功能详细剖析](https://blog.csdn.net/u011915230/article/details/53113525)
