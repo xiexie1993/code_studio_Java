@@ -77,10 +77,16 @@
 ~~~
 
 ./
-├─ Example1             例子1
-|  ├─ HelloWorld.java   
-|  └─ README.md         该部分例子自述文件
-├─ EclipseInsMan.md     Eclipse使用说明与记录
-└─ README.md            自述文件
-
+├─ Example1                  例子1： 打印HelloWorld
+|  ├─ HelloWorld.java        
+|  └─ README.md              该部分例子自述文件
+├─ Thread_Example1           例子2： 线程例子
+|  ├─ demo.java  
+|  └─ README.md              该部分例子自述文件
+├─ Thread_Example2                  例子2： 打印Java中几种线程的状态
+|  ├─ demo.java  
+|  └─ README.md              该部分例子自述文件
+├─ EclipseInsMan.md          Eclipse使用说明与记录
+└─ README.md                 自述文件
+ 
 ~~~
