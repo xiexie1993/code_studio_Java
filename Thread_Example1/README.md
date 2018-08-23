@@ -38,24 +38,40 @@
 
 ## Java环境配置
 
-### windows7 64
+### Windows
 
 + Step1:安装JDK
     + [下载地址](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
 + Step2:配置环境变量
-    + JAVA_HOME      配置JDK安装路径（默认 C:\Program Files\Java\jdk1.7.0_79）
-    + PATH           配置JDK命令文件的位置（默认 C:\Program Files\Java\jdk1.7.0_79\bin）
-    + CLASSPATH      配置类库文件位置（默认 C:\Program Files\Java\jdk1.7.0_79\lib） 或 .;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar
+    + 计算机--->属性--->高级系统设置--->高级-->环境变量--->系统变量--->新建（修改）
+        + JAVA_HOME      配置JDK安装路径（默认 C:\Program Files\Java\jdk1.7.0_79）
+        + PATH           配置JDK命令文件的位置（默认 C:\Program Files\Java\jdk1.7.0_79\bin）或 %JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
+（win7注意原来的Path的变量值末尾有没有;号，如果没有，先输入；号再输入上面的代码）
+        + CLASSPATH      配置类库文件位置（默认 C:\Program Files\Java\jdk1.7.0_79\lib） 或 .;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar
 
-+ Step3:命令行测试
-    + 执行命令 java 、javac
++ Step3:检验是否配置成功
+    + 运行cmd 输入 javac 和 java -version （java 和 -version 之间有空格），若 显示版本信息 则说明安装和配置成功。
+
 
 ## 开发集成环境
 
-### Eclipse（Win7）
+### Eclipse（Win）
 
-### MyEclipse()
++ 下载并解压缩（注：eclipse是开源 windows软件包是绿色免安装，只是要先配置号java环境）
+    + [eclipse下载地址](https://www.eclipse.org/downloads/)
+
++ 使用
+    + Step1： 创建Java项目
+    + Step2： 创建程序包
+    + Step3： 编写Java源程序
+    + Step4： 运行java程序
+> 详见 EclipseInsMan.md
+
+### MyEclipse(是在eclipse 基础上加上自己的插件开发而成的功能强大的企业级集成开发环境)
+
++ 下载并解压缩
+    +  + [MyEclipse下载地址]
 
 ## 目录结构
 

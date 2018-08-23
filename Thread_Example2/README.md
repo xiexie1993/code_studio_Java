@@ -38,7 +38,7 @@
 
 ## Java环境配置
 
-### windows7 64
+### Windows
 
 + Step1:安装JDK
     + [下载地址](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
@@ -53,9 +53,22 @@
 
 ## 开发集成环境
 
-### Eclipse（Win7）
+### Eclipse（Win）
 
-### MyEclipse()
++ 下载并解压缩（注：eclipse是开源 windows软件包是绿色免安装，只是要先配置号java环境）
+    + [eclipse下载地址](https://www.eclipse.org/downloads/)
+
++ 使用
+    + Step1： 创建Java项目
+    + Step2： 创建程序包
+    + Step3： 编写Java源程序
+    + Step4： 运行java程序
+> 详见 EclipseInsMan.md
+
+### MyEclipse(是在eclipse 基础上加上自己的插件开发而成的功能强大的企业级集成开发环境)
+
++ 下载并解压缩
+    +  + [MyEclipse下载地址]
 
 ## 目录结构
 
